@@ -1,0 +1,6 @@
+pyenv-bash (0.1.0-1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Russell Pagden <irra@rpagden.com>  Sun, 24 Nov 2019 16:13:38 +0000
