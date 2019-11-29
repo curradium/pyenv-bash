@@ -1,15 +1,16 @@
 Source: pyenv-bash
-Section: unknown
-Priority: extra
+Section: misc
+Priority: optional
 Maintainer: Russell Pagden <russ@rpagden.com>
-Build-Depends: debhelper (>=9)
+Build-Depends: debhelper (>=12), debhelper-compat (=12)
 Standards-Version: 4.4.1
 Homepage: https://github.com/curradium/pyenv-bash
 
 Package: pyenv-bash
-Architecture: any
+Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}, pyenv, bash
-Description: Bash integration for pyenv.
- Bash integrations such as auto-initialisation and autocompletion
- for pyenv.
+Depends: ${misc:Depends}, ${shlibs:Depends}, pyenv
+Description: Bash integration for pyenv
+ Bash integrations such as auto-initialisation and autocompletion for pyenv.
+ Not necessary if one prefers to use upstream's method of auto-init via
+ modification to ~/.bashrc.

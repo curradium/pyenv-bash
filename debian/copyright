@@ -1,19 +1,10 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: pyenv-bash
-Source: <url://example.com>
-#
-# Please double check copyright with the licensecheck(1) command.
+Source: <https://github.com/curradium/pyenv-bash>
 
-Files:     README.md
-Copyright: __NO_COPYRIGHT_NOR_LICENSE__
-License:   __NO_COPYRIGHT_NOR_LICENSE__
-
-#----------------------------------------------------------------------------
-# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
-# license/copyright files.
-
-#----------------------------------------------------------------------------
-# License file: LICENSE
+Files: *
+Copyright: 2019 Russell Pagden
+License: GPL-3
                      GNU GENERAL PUBLIC LICENSE
                         Version 3, 29 June 2007
  .
@@ -688,3 +679,6 @@ License:   __NO_COPYRIGHT_NOR_LICENSE__
  the library.  If this is what you want to do, use the GNU Lesser General
  Public License instead of this License.  But first, please read
  <https://www.gnu.org/licenses/why-not-lgpl.html>.
+ .
+ On Debian systems, the full text of this license can be found at
+ /usr/share/common-licenses/GPL-3.
